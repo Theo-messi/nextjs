@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -46,7 +46,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            VitePress{" "}
+            VitePress{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -63,7 +63,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            玄学宝典{" "}
+            玄学宝典{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -80,7 +80,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            流媒体观影指南{" "}
+            流媒体观影指南{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -98,7 +98,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            个人图床{" "}
+            个人图床{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -107,5 +107,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  );
+  )
 }

@@ -9,36 +9,36 @@ dependencies:
     specifier: 13.5.6
     version: 13.5.6(react-dom@18.2.0)(react@18.2.0)
   react:
-    specifier: ^18
+    specifier: ^18.2.0
     version: 18.2.0
   react-dom:
-    specifier: ^18
+    specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
   '@types/node':
-    specifier: ^20
+    specifier: ^20.8.7
     version: 20.8.7
   '@types/react':
-    specifier: ^18
-    version: 18.2.30
+    specifier: ^18.2.31
+    version: 18.2.31
   '@types/react-dom':
-    specifier: ^18
+    specifier: ^18.2.14
     version: 18.2.14
   autoprefixer:
-    specifier: ^10
+    specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
   postcss:
-    specifier: ^8
+    specifier: ^8.4.31
     version: 8.4.31
   prettier:
     specifier: 3.0.3
     version: 3.0.3
   tailwindcss:
-    specifier: ^3
+    specifier: ^3.3.3
     version: 3.3.3
   typescript:
-    specifier: ^5
+    specifier: ^5.2.2
     version: 5.2.2
 
 packages:
@@ -207,11 +207,11 @@ packages:
   /@types/react-dom@18.2.14:
     resolution: {integrity: sha512-V835xgdSVmyQmI1KLV2BEIUgqEuinxp9O4G6g3FqO/SqLac049E53aysv0oEFD2kHfejeKU+ZqL2bcFWj9gLAQ==}
     dependencies:
-      '@types/react': 18.2.30
+      '@types/react': 18.2.31
     dev: true
 
-  /@types/react@18.2.30:
-    resolution: {integrity: sha512-OfqdJnDsSo4UNw0bqAjFCuBpLYQM7wvZidz0hVxHRjrEkzRlvZL1pJVyOSY55HMiKvRNEo9DUBRuEl7FNlJ/Vg==}
+  /@types/react@18.2.31:
+    resolution: {integrity: sha512-c2UnPv548q+5DFh03y8lEDeMfDwBn9G3dRwfkrxQMo/dOtRHUUO57k6pHvBIfH/VF4Nh+98mZ5aaSe+2echD5g==}
     dependencies:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5
